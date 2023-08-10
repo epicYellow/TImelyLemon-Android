@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingActivity"
+    android:background="@drawable/bg_android"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:id="@+id/logo"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/img_icon" />
+
+        <ImageView
+            android:id="@+id/btn_settings"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_settings" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:orientation="vertical"
+        android:background="@drawable/img_container"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        app:strokeWidth="0dp"
+>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_black"
+            android:text="Welcome to Timely Lemon!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto"
+            android:text="TimelyLemon is the trivia app based on pop culture from the 70's to the 90's. Test yourself and find out in which era you were supposed to be born !"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/roboto_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Username"
+        android:textSize="26dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/u_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        app:boxStrokeWidth="0dp"
+        android:background="@drawable/img_input"
+        app:boxStrokeColor="@color/black"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/prev_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:padding="17dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/img_btn"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_black"
+            android:text="Start"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textSize="26dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

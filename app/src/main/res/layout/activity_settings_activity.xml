@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SettingsActivity"
+    android:background="@drawable/bg_android"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_back" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:orientation="vertical"
+        android:background="@drawable/img_container"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        app:strokeWidth="0dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_black"
+            android:text="Welcome to Timely Lemon!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto"
+            android:text="Timely Lemon is the trivia app based on pop music and movies from the 70's to the 90's. Test yourself and find out in which era you were supposed to be born !"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/link_wallpapers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/img_btn"
+        android:padding="16dp"
+        android:layout_marginTop="15dp"
+        app:strokeWidth="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_black"
+            android:text="Download Wallpapers"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/img_container"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        app:strokeWidth="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/set_prev_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_black"
+                android:text="High Score: 0"
+                android:paddingTop="7dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="5dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/set_prev_name"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_black"
+                android:text="Rein"
+                android:paddingTop="7dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_clearHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/img_container"
+            android:backgroundTint="@color/red">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="vertical"
+                android:background="@drawable/img_container"
+                android:padding="3dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/github"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GitHub"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:padding="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/profile"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EpicBlue1"
+                        android:textAlignment="center"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:padding="12dp"/>
+
+                    <LinearLayout
+                        android:id="@+id/link_github"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginRight="14dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/img_container">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:text="Visit"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:text="Hi I am Reinhardt de Beer, a second year developer at Open Window. Find out more by clicking visit!">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="vertical"
+                android:background="@drawable/img_container"
+                android:padding="3dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Special thanks to:"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:padding="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="5dp"
+                        android:text="https://boomagain.com/70s-trivia/"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="5dp"
+                        android:text="https://groupgames101.com/90s-trivia-questions/"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="5dp"
+                        android:text="https://groupgames101.com/80s-trivia-questions-and-answers/"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/img_btn"
+                android:padding="16dp"
+                android:layout_marginTop="15dp"
+                app:strokeWidth="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_black"
+                    android:text="Version 1.06"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

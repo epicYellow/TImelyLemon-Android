@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsActivity"
+    android:id="@+id/qs_all"
+    android:padding="15dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_back"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="screen"
+            app:backgroundTint="@color/black"
+            android:id="@+id/btn_back"
+            app:strokeColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:background="@drawable/img_view"
+            android:layout_height="160dp"
+            android:layout_marginLeft="60dp" >
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/q_image"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="6dp"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                 />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/img_container"
+        app:strokeColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/qp_question"
+            android:scrollbars = "vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="music pop culture from the 70’s, 80’s, 90’s and 2000’s. Test your general knowledge!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+             />
+    </LinearLayout>
+
+    //question containers
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/rg_answers">
+        <RadioButton
+            android:id="@+id/rb_answerOne"
+            android:scaleType="centerCrop"
+            android:textColor="@color/black"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:text="Answer One"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:paddingBottom="4dp" />
+        <RadioButton
+            android:id="@+id/rb_answerTwo"
+            android:scaleType="centerCrop"
+            android:textColor="@color/black"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:text="Answer One"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:background="@drawable/img_cat_sev_ques"/>
+        <RadioButton
+            android:id="@+id/rb_answerThree"
+            android:scaleType="centerCrop"
+            android:textColor="@color/black"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:text="Answer One"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:background="@drawable/img_cat_sev_ques"/>
+
+        <RadioButton
+            android:id="@+id/rb_answerFour"
+            android:scaleType="centerCrop"
+            android:textColor="@color/black"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:text="Answer One"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:background="@drawable/img_cat_sev_ques"/>
+
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:padding="17dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/img_btn"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/lato_black"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

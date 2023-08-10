@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsActivity"
+    android:padding="20dp"
+    android:id="@+id/res_back"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_back"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="screen"
+            app:backgroundTint="@color/black"
+            android:id="@+id/btn_back"
+            app:strokeColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Back Home"
+            android:fontFamily="@font/roboto_black"
+            android:textAlignment="center"
+            android:textSize="26dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:background="@drawable/img_container"
+        android:gravity="center"
+        app:strokeWidth="0dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/final_score"
+            android:fontFamily="@font/roboto_black"
+            android:text="Score: 150"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_score"
+            android:fontFamily="@font/roboto_black"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/img_container"
+        android:gravity="center"
+        android:padding="15dp"
+        app:strokeWidth="0dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_black"
+            android:id="@+id/born_result"
+            android:text="You are definitely a 70's kid"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/btn_cat"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="260dp"
+        android:padding="17dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/img_btn"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_black"
+        android:text="Categories"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="26dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

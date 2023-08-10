@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1155" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1075" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/drawable/im_one_one_background.xml" value="0.14" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_category_select.xml" value="0.264" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_landing.xml" value="0.25" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_main.xml" value="0.33541666666666664" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_questions.xml" value="0.25" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_results.xml" value="0.25" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_settings_acitivity.xml" value="0.33" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_settings_activity.xml" value="0.1921875" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/layout/activity_splash.xml" value="0.24739583333333334" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/mipmap-anydpi-v26/im_one_one.xml" value="0.163" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/TimelyLemon/app/src/main/res/mipmap-anydpi-v26/im_one_one_round.xml" value="0.163" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.123" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.123" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/app/src/main/res/layout/activity_main.xml" value="0.20364583333333333" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/app/src/main/res/layout/activity_splash.xml" value="0.21770833333333334" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.123" />
+        <entry key="..\:/1.OpenWindow/Year2/TermThree/Android/TimelyLemon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.123" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
